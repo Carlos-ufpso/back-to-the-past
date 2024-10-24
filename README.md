@@ -84,3 +84,22 @@ Una vez que hayan entregado su pull request, el destino del Proyecto Phoenix est
 El reto de **"Back to the Past - Proyecto Phoenix"** no es solo técnico, es un viaje en el tiempo, una misión para restaurar el código que una vez tuvo potencial. Esta actividad busca que los estudiantes no solo aprendan sobre **Git**, **HTML**, y **CSS**, sino que también experimenten lo que es trabajar en un proyecto real, colaborativo y basado en control de versiones.
 
 Como Restauradores del Tiempo, su objetivo es simple pero crucial: ¡salvar el código, salvar el futuro!
+
+
+Cambios del html:
+- Se reemplazaron las etiquetas <div> por elementos semánticos de HTML5 como <header>, <main>, <section>, y <footer>
+- Se introdujo una nueva sección "Servicios" para proporcionar información adicional sobre las capacidades del proyecto
+- Se añadieron etiquetas <img> en las secciones correspondientes, utilizando la clase section-image para mantener un estilo visual uniforme y atractivo
+- Se añadió un botón en la sección "Nuestro Propósito" para invitar a los usuarios a unirse al proyecto, mejorando la interactividad
+
+Cambio del css:
+- Se agregó display: flex, flex-direction: column, y min-height: 100vh al body, lo que permite una mejor organización y distribución del contenido en la página
+- Se sustituyó .header por <header> para mejorar la semántica del HTML.
+- Se aumentó el padding a 20px y se mejoró el centrado del texto.
+- Se modificó la lista de navegación para que utilice display: flex y justify-content: center, mejorando el diseño y la alineación de los enlaces
+- Se cambió .main por <main>, proporcionando un mejor contexto semántico
+- Se añadieron estilos para main section, incluyendo background-color, border, border-radius, y box-shadow para un diseño más atractivo y moderno.
+- Se añadió la clase .section-image para controlar el tamaño y la presentación de las imágenes dentro de las secciones, asegurando que se adapten al contenedor.
+- Se añadió una clase .services para proporcionar un fondo diferente y mayor padding a esta sección.
+- Se implementó un estilo uniforme para todos los botones, incluyendo un efecto de hover para mejorar la interactividad.
+- Se ajustaron los estilos del footer para que ocupe el 100% del ancho y se eliminó la propiedad position: absolute, permitiendo que se sitúe al final del contenido.
